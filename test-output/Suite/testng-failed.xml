@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+        <exclude name="ui"/>
+        <exclude name="form"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC_02_LanguageLearning">
+        <methods>
+          <include name="CheckLanguagesList"/>
+          <include name="setUp"/>
+          <include name="openTest"/>
+          <include name="searchLangLearn"/>
+          <include name="checkLevelsList"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC_02_LanguageLearning -->
+      <class name="testCases.TC_01_SearchWebDev">
+        <methods>
+          <include name="clickEnglishCheckBox"/>
+          <include name="goToHome"/>
+          <include name="checkCourseNames"/>
+          <include name="searchWebDevCourse"/>
+          <include name="checkCourseRatings"/>
+          <include name="clickBeginnerCheckBox"/>
+          <include name="checkCourseDuration"/>
+          <include name="setUp"/>
+          <include name="openTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC_01_SearchWebDev -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

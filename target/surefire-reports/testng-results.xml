@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="12" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-18T14:40:51 IST" name="Suite" finished-at="2025-04-18T14:41:38 IST" duration-ms="46637">
+    <groups>
+      <group name="regression">
+        <method signature="TC_01_SearchWebDev.searchWebDevCourse()[pri:1, instance:testCases.TC_01_SearchWebDev@689604d9]" name="searchWebDevCourse" class="testCases.TC_01_SearchWebDev"/>
+        <method signature="TC_02_LanguageLearning.searchLangLearn()[pri:1, instance:testCases.TC_02_LanguageLearning@313ac989]" name="searchLangLearn" class="testCases.TC_02_LanguageLearning"/>
+        <method signature="TC_01_SearchWebDev.clickEnglishCheckBox()[pri:2, instance:testCases.TC_01_SearchWebDev@689604d9]" name="clickEnglishCheckBox" class="testCases.TC_01_SearchWebDev"/>
+        <method signature="TC_02_LanguageLearning.CheckLanguagesList()[pri:2, instance:testCases.TC_02_LanguageLearning@313ac989]" name="CheckLanguagesList" class="testCases.TC_02_LanguageLearning"/>
+        <method signature="TC_01_SearchWebDev.clickBeginnerCheckBox()[pri:3, instance:testCases.TC_01_SearchWebDev@689604d9]" name="clickBeginnerCheckBox" class="testCases.TC_01_SearchWebDev"/>
+        <method signature="TC_02_LanguageLearning.checkLevelsList()[pri:3, instance:testCases.TC_02_LanguageLearning@313ac989]" name="checkLevelsList" class="testCases.TC_02_LanguageLearning"/>
+        <method signature="TC_01_SearchWebDev.checkCourseNames()[pri:4, instance:testCases.TC_01_SearchWebDev@689604d9]" name="checkCourseNames" class="testCases.TC_01_SearchWebDev"/>
+        <method signature="TC_01_SearchWebDev.checkCourseRatings()[pri:5, instance:testCases.TC_01_SearchWebDev@689604d9]" name="checkCourseRatings" class="testCases.TC_01_SearchWebDev"/>
+        <method signature="TC_01_SearchWebDev.checkCourseDuration()[pri:6, instance:testCases.TC_01_SearchWebDev@689604d9]" name="checkCourseDuration" class="testCases.TC_01_SearchWebDev"/>
+        <method signature="TC_01_SearchWebDev.goToHome()[pri:7, instance:testCases.TC_01_SearchWebDev@689604d9]" name="goToHome" class="testCases.TC_01_SearchWebDev"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_01_SearchWebDev.searchWebDevCourse()[pri:1, instance:testCases.TC_01_SearchWebDev@689604d9]" name="searchWebDevCourse" class="testCases.TC_01_SearchWebDev"/>
+        <method signature="TC_02_LanguageLearning.searchLangLearn()[pri:1, instance:testCases.TC_02_LanguageLearning@313ac989]" name="searchLangLearn" class="testCases.TC_02_LanguageLearning"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-04-18T14:40:51 IST" name="ChromeTest" finished-at="2025-04-18T14:41:38 IST" duration-ms="46637">
+      <class name="testCases.TC_01_SearchWebDev">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:40:51 IST" name="setUp" finished-at="2025-04-18T14:41:04 IST" duration-ms="12302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openTest()[pri:0, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:04 IST" name="openTest" finished-at="2025-04-18T14:41:04 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTest -->
+        <test-method signature="searchWebDevCourse()[pri:1, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:04 IST" name="searchWebDevCourse" finished-at="2025-04-18T14:41:09 IST" duration-ms="5334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWebDevCourse -->
+        <test-method signature="clickEnglishCheckBox()[pri:2, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:09 IST" name="clickEnglishCheckBox" finished-at="2025-04-18T14:41:09 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEnglishCheckBox -->
+        <test-method signature="clickBeginnerCheckBox()[pri:3, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:09 IST" name="clickBeginnerCheckBox" finished-at="2025-04-18T14:41:10 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBeginnerCheckBox -->
+        <test-method signature="checkCourseNames()[pri:4, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:10 IST" name="checkCourseNames" finished-at="2025-04-18T14:41:12 IST" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCourseNames -->
+        <test-method signature="checkCourseRatings()[pri:5, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:12 IST" name="checkCourseRatings" finished-at="2025-04-18T14:41:12 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCourseRatings -->
+        <test-method signature="checkCourseDuration()[pri:6, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:12 IST" name="checkCourseDuration" finished-at="2025-04-18T14:41:12 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCourseDuration -->
+        <test-method signature="goToHome()[pri:7, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:12 IST" name="goToHome" finished-at="2025-04-18T14:41:17 IST" duration-ms="4984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_01_SearchWebDev@689604d9]" started-at="2025-04-18T14:41:17 IST" name="tearDown" finished-at="2025-04-18T14:41:21 IST" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_01_SearchWebDev -->
+      <class name="testCases.TC_02_LanguageLearning">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_02_LanguageLearning@313ac989]" started-at="2025-04-18T14:41:21 IST" name="setUp" finished-at="2025-04-18T14:41:27 IST" duration-ms="6402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openTest()[pri:0, instance:testCases.TC_02_LanguageLearning@313ac989]" started-at="2025-04-18T14:41:27 IST" name="openTest" finished-at="2025-04-18T14:41:27 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTest -->
+        <test-method signature="searchLangLearn()[pri:1, instance:testCases.TC_02_LanguageLearning@313ac989]" started-at="2025-04-18T14:41:27 IST" name="searchLangLearn" finished-at="2025-04-18T14:41:32 IST" duration-ms="5046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLangLearn -->
+        <test-method signature="CheckLanguagesList()[pri:2, instance:testCases.TC_02_LanguageLearning@313ac989]" started-at="2025-04-18T14:41:32 IST" name="CheckLanguagesList" finished-at="2025-04-18T14:41:34 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLanguagesList -->
+        <test-method signature="checkLevelsList()[pri:3, instance:testCases.TC_02_LanguageLearning@313ac989]" started-at="2025-04-18T14:41:34 IST" name="checkLevelsList" finished-at="2025-04-18T14:41:34 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLevelsList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_02_LanguageLearning@313ac989]" started-at="2025-04-18T14:41:34 IST" name="tearDown" finished-at="2025-04-18T14:41:38 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_02_LanguageLearning -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
